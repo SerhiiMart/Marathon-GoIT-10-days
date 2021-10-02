@@ -1,5 +1,63 @@
  * {
-   margin: 0;
+   /* margin: 0;
    padding: 0;
-   box-sizing: border-box;
+   box-sizing: border-box; */
  }
+
+ body {
+  font-family: 'Montserrat', sans-serif;
+ }
+
+ h1 {
+   color: #333333;
+ }
+
+ /* ----- Experience Section ------- */
+
+ .experience-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center;   */
+}
+
+.my-photo{
+  margin-bottom: 50px;
+  border-radius: 70%;
+}
+
+.icons {
+  width: 18px;
+  height: 18px;
+}
+
+.linkedin-icon {
+  margin-right: 15px;
+}
+
+.experience-desc {
+  margin: 35px 0 35px 0;
+  text-align: center;
+}
+
+.technologies-container {
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+ .my-projects-link {
+   color: #EB5757;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 16px;
+   line-height: 24px;
+   text-decoration-line: underline;
+ }
+
+ .my-projects-link:hover {
+  color: #850D0D;
+}
+
+ /* <h1>Я делаю сайты</h1> */ 
