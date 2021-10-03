@@ -1,10 +1,11 @@
  * {
   font-family: 'Montserrat', sans-serif;
+  line-height: 24px;
  }
  
  body {
   font-size: 16px;
-  line-height: 24px;
+  
  }
 
  .wrapper {
@@ -59,7 +60,6 @@
    font-style: normal;
    font-weight: bold;
    font-size: 16px;
-   line-height: 24px;
    text-decoration-line: underline;
  }
 
@@ -79,7 +79,6 @@
 
 .my-name{ 
   font-weight: bold;
-  line-height: 24px;
   color: #333333;
   margin-bottom: 30px;
 }
@@ -95,7 +94,6 @@
 .my-location-remote{ 
   font-weight: bold;
   font-size: 24px;
-  line-height: 24px;
   color: #ffffff;
   background: #2F80ED;
   padding: 5px 15px;
@@ -103,4 +101,37 @@
 
 .local-rem-last{
   margin-bottom: 100px;
+}
+
+.my-description {
+  color: #4F4F4F;
+  margin-bottom: 15px;
+}
+
+.my-skills p {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.my-skills ul {
+  list-style: none;
+  padding-left: 18px;
+}
+
+.my-skills li {
+  color: #4F4F4F;
+}
+.my-skills li::before {
+  content: "•";  
+  color: #2F80ED; 
+  font-weight: bold; 
+  display: inline-block; 
+  width: 1.5em; 
+  margin-left: -1.1em; 
+}
+
+ li::before {
+  content: "•";  
+  color: #2F80ED; 
+  font-weight: bold; 
 }
