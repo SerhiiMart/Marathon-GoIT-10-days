@@ -1,11 +1,16 @@
- body {
+ * {
   font-family: 'Montserrat', sans-serif;
+ }
+ 
+ body {
   font-size: 16px;
+  line-height: 24px;
  }
 
  .wrapper {
    display: flex;
    flex-direction: row;
+   padding: 80px;
  }
 
  h1 {
@@ -62,4 +67,40 @@
   color: #850D0D;
 }
 
- /* <h1>Я делаю сайты</h1> */ 
+
+ /* ------ My info Section ------- */
+
+.my-info-section {
+  margin-left: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.my-name{ 
+  font-weight: bold;
+  line-height: 24px;
+  color: #333333;
+  margin-bottom: 30px;
+}
+
+.my-profession {
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 48px;
+  color: #333333;
+  margin-bottom: 35px;
+}
+
+.my-location-remote{ 
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 24px;
+  color: #ffffff;
+  background: #2F80ED;
+  padding: 5px 15px;
+}
+
+.local-rem-last{
+  margin-bottom: 100px;
+}
