@@ -62,7 +62,6 @@
   <section class="project-price-section">     
     <form action="#" class="project-price-form">
       <h4>Расчитай стоимость проекта</h4>
-
       <div class="project-type-container">
         <label for="project-type" class="form-field-title">Тип сайта</label>
         <select name="project-type" id="project-type" class="project-type-select">
@@ -72,7 +71,6 @@
           <option value="mobile-application">Mobile Application</option>
         </select>
       </div>
-
       <div class="activity-type-container">
         <p class="form-field-title">Тип работ</p>
           <div class="activity-type-item">
@@ -80,17 +78,22 @@
             <label for="project-management" class="activity-type-label">Project Management</label>
           </div>
           <div class="activity-type-item">
-            <input type="checkbox" name="design" id="design" class="activity-type-checkbox">
+            <input checked type="checkbox" name="design" id="design" class="activity-type-checkbox">
             <label for="design" class="activity-type-label">Design</label>
           </div>
           <div class="activity-type-item">
-            <input type="checkbox" name="developer" id="developer" class="activity-type-checkbox">
+            <input checked type="checkbox" name="developer" id="developer" class="activity-type-checkbox">
             <label for="developer" class="activity-type-label">Developer</label>
           </div>
           <div class="activity-type-item">
             <input type="checkbox" name="qa" id="qa" class="activity-type-checkbox">
             <label for="qa" class="activity-type-label">QA</label>
           </div>   
+      </div>
+      <div class="project-price-container">
+        <p class="form-field-title">Стоимость</p>
+        <div class="project-price-sum"><span>$</span> 1800</div>
+        <div class="project-price-btn"><button>Отправить запрос</button></div>   
       </div>
     </form>
   </section>
