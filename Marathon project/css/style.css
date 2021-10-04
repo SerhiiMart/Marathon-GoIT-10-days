@@ -170,5 +170,18 @@
  }
 
  .activity-type-container {
+   display: flex;
+   flex-direction: column;
+ }
+ .activity-type-item {
+  flex-wrap:wrap;
+  margin: 8px;
+ }
+
+ .activity-type-label {
+  color: #4F4F4F;
+  margin-left: 13px;
+ }
+ .activity-type-checkbox {
    
  }
