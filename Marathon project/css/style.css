@@ -155,9 +155,20 @@
    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.08);
    border-radius: 16px;
  }
-
  .form-field-title {
    font-weight: bold;
    color: #333333;
    margin-bottom: 15px;
+ }
+ .project-type-select {
+  color: #4F4F4F;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #4F4F4F;
+  transform: rotate(0.2deg);
+  padding-bottom: 10px;
+ }
+
+ .activity-type-container {
+   
  }
