@@ -94,5 +94,11 @@
 }
 
 .modal-container-success{
+  justify-content: center;
+}
 
+.success-icon {
+  height: 28px;
+  width: 28px;
+  margin-bottom: 40px;
 }

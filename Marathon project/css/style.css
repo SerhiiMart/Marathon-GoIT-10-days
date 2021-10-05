@@ -112,8 +112,9 @@
 }
 
 .my-name{ 
+  font-size: 16px;
   font-weight: bold;
-  color: #333333;
+  color: #4F4F4F;
   margin-bottom: 30px;
 }
 
