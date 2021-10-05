@@ -114,15 +114,32 @@
     </form>
   </section>
 </main>
+ <!-- Modal Section -->
   <div class="modal-bgd">
     <div class="modal-container">
+      <button class="modal-close-button">
+        <img class="close-icon" src="./img/icons/close-icon.svg" alt="Close Icon">
+      </button>
+      
+      <img class="mail-icon" src="./img/icons/mail-icon.svg" alt="Mail Icon">
       <h4>Я свяжусь с Вами на<br> протяжении ближайшего часа</h4>
       <form action="">
         <label for="user-email">Email:</label>
         <input type="email" name="user-email" id="user-email" placeholder="Укажите e-mail"> 
         <div class="project-btn"><button class="project-btn-class" type="submit">Отправить</button></div> 
       </form>
+    </div>
+  </div>
 
+  <div class="modal-bgd modal-active">
+    <div class="modal-container modal-container-success">
+      <button class="modal-close-button">
+        <img class="close-icon" src="./img/icons/close-icon.svg" alt="Close Icon">
+      </button>
+      
+      <img class="mail-icon" src="./img/icons/success-icon.svg" alt="Mail Icon">
+      <h4 class="succ-1">Ваше сообщение отправлено!</h4>
+      <h4 class="succ-2">В скорем времени я свяжусь с вами!</h4>
     </div>
   </div>
 

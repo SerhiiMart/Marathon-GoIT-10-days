@@ -10,9 +10,18 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.modal-active {
+  opacity: 1;
+  pointer-events: all;
 }
 
 .modal-container {
+  position: relative;
+  height: 604px;
   font-family: 'Montserrat', sans-serif;
   line-height: 24px;
   font-size: 16px;
@@ -21,6 +30,9 @@
   box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.08);
   border-radius: 16px;
   padding: 110px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .modal-container h4 {
@@ -34,6 +46,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
 }
 
 .modal-container label {
@@ -45,7 +58,7 @@
 .modal-container input {
   margin-bottom: 115px;
   width: 100%;
-  margin-top: 15px;
+  margin-top: 14px;
   font-size: 16px;
   line-height: 24px;
   padding: 8px 0;
@@ -54,3 +67,32 @@
   border-bottom: 1px solid #4F4F4F;
 }
 
+.mail-icon {
+  margin-bottom: 35px;
+}
+
+.modal-close-button {
+  position: absolute;
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+  top: 30px;
+  right: 30px;
+}
+
+/* -----Modal-2------ */
+
+.succ-1, .succ-2 {
+  font-weight: bold;
+  text-align: center;
+  color: #2F80ED;
+}
+
+.succ-1, .succ-2 {
+  margin-bottom: 32px;
+}
+
+.modal-container-success{
+
+}
