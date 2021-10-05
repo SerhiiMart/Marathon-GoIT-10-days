@@ -15,6 +15,7 @@
   
 </head>
 <body>
+  <script defer src="./js/app.js"></script>
 <main class="wrapper">
   <!-- Contacts Section-->
   <section class="contacts-section"> 
@@ -76,7 +77,7 @@
 
   <!-- Form Section -->
   <section class="project-price-section">     
-    <form action="#" class="project-price-form">
+    <form action="#" class="project-price-form" id="project-price-form">
       <h4>Расчитай стоимость проекта</h4>
       <div class="project-type-container">
         <label for="project-type" class="form-field-title">Тип сайта</label>
@@ -94,12 +95,12 @@
             <label for="project-management" class="activity-type-label">Project Management</label>
           </div>
           <div class="activity-type-item">
-            <input checked type="checkbox" name="design" id="design" class="activity-type-checkbox">
+            <input type="checkbox" name="design" id="design" class="activity-type-checkbox">
             <label for="design" class="activity-type-label">Design</label>
           </div>
           <div class="activity-type-item">
-            <input checked type="checkbox" name="developer" id="developer" class="activity-type-checkbox">
-            <label for="developer" class="activity-type-label">Developer</label>
+            <input type="checkbox" name="development" id="development" class="activity-type-checkbox">
+            <label for="development" class="activity-type-label">Development</label>
           </div>
           <div class="activity-type-item">
             <input type="checkbox" name="qa" id="qa" class="activity-type-checkbox">
@@ -108,7 +109,7 @@
       </div>
       <div class="project-price-container">
         <p class="form-field-title">Стоимость</p>
-        <div class="project-price-sum"><span>$</span> 1800</div>
+        <div class="project-price-sum"><span>$</span><span id="total-price"> 0</span></div>
         <div class="project-btn"><button class="project-btn-class">Отправить запрос</button></div>   
       </div>
     </form>

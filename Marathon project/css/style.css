@@ -56,6 +56,7 @@
   /* position: absolute; */
   width: 268px;
   display: flex;
+  color: #4F4F4F;
   flex-direction: column;
   align-items: center;
 }
@@ -198,6 +199,7 @@
    margin-bottom: 16px;
  }
  .project-type-select {
+  font-family: 'Montserrat', sans-serif;
   color: #4F4F4F;
   border: none;
   outline: none;
