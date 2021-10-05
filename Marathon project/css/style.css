@@ -14,6 +14,7 @@
    flex-direction: row;
    padding: 80px;
    justify-content: space-between;
+   position: relative;
  }
 
  h1 {
@@ -21,16 +22,41 @@
  }
 
  /* ------ Contacts Section ------- */
+ .contacts-section {  
+   position: absolute;
+   top: 35px;
+   right: 80px;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+ }
 
+.header-icon-link {
+  text-decoration: none;
+}
+ 
+ .header-icon {
+   width: 18px;
+   height: 18px;
+   margin-right: 16px;
+ }
+
+ .phone-link-number { 
+   margin-left: 2px;
+   margin-top: -2px;
+   font-weight: bold;
+   color: #333333;
+   text-decoration: none;
+ }
 
  /* ------ Experience Section ------- */
 
  .experience-section {
+  /* position: absolute; */
   width: 268px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* justify-content: center;   */
 }
 
 .my-photo{
