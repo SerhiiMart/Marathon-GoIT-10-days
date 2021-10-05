@@ -6,6 +6,7 @@
  
  body {
   font-size: 16px;
+  line-height: 24px;
   background-color: #F3F5F9;
  }
 
@@ -241,7 +242,7 @@
   font-weight: bold;
  }
 
- .project-price-container button {
+ .project-btn-class {
   width: 210px;
   cursor: pointer;
   background: #2F80ED;
