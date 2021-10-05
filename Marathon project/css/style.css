@@ -22,7 +22,7 @@
  /* ------ Experience Section ------- */
 
  .experience-section {
-  width: 33%;
+  width: 268px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -74,7 +74,7 @@
 
 .my-info-section {
   width: 33%;
-  margin-left: 70px;
+  margin: 0px 24px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -135,7 +135,9 @@
 }
  /* ------ Form Section ------- */
  .project-price-section {
-  width: 33%;
+  width: 364px;
+  /* width: 33%; */
+  margin-left: 24px;
  }
 
  .project-price-section h4{
@@ -152,9 +154,10 @@
  }
 
  .project-price-form { 
-   padding: 40px;
+   padding: 40px 40px 5px;
+
    background: #ffffff;
-   box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.08);
+   box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.4);
    border-radius: 16px;
  }
 
