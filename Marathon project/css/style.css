@@ -137,23 +137,27 @@
  .project-price-section {
   width: 33%;
  }
+
  .project-price-section h4{
   color: #2F80ED;
   font-weight: bold;
   text-align: center;
   margin-bottom: 45px;
  }
+
  .project-type-container {
    display: flex;
    flex-direction: column;
    margin-bottom: 27px;
  }
+
  .project-price-form { 
    padding: 40px;
    background: #ffffff;
    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.08);
    border-radius: 16px;
  }
+
  .form-field-title {
    font-weight: bold;
    color: #333333;
@@ -167,36 +171,44 @@
   transform: rotate(0.2deg);
   padding-bottom: 10px;
  }
+
  .activity-type-container {
    display: flex;
    flex-direction: column;
    margin-bottom: 27px;
  }
+
  .activity-type-item {
   display: flex;
   flex-direction: row;
   margin: 8px;
  }
+
  .activity-type-label {
   color: #4F4F4F;
   margin-left: 13px;
  }
+
  .activity-type-checkbox {
    width: 18px;
    height: 18px;
    margin-left: -5px;
  }
+
  .project-price-sum {
   color: #333333;
   margin-bottom: 27px;
  }
+
  .project-price-container {
    margin-bottom: 30px;
  }
+
  .project-price-container span {
   color: #2F80ED;
   font-weight: bold;
  }
+
  .project-price-container button {
   width: 210px;
   cursor: pointer;
@@ -208,6 +220,7 @@
   outline: none;
   border: none;
  }
+ 
  .project-price-btn {
   width: 100%;
   text-align: center;
