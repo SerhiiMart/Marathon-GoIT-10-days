@@ -88,6 +88,15 @@ const modalForm = document.querySelector('#modal-form')
 
 modalForm.addEventListener('submit', (event) => {
   event.preventDefault()
-  emailModal.classList.remove('modal-active') 
-  successModal.classList.add('modal-active')  
+  const userEmailInput = document.querySelector('#user-email')
+  const inputContainer = document.querySelector('#email-input-container')
+  if (userEmailInput.value) {
+    emailModal.classList.remove('modal-active') 
+    successModal.classList.add('modal-active') 
+    userEmailInput.classList.remove('error')
+  } else {
+    inputContainer.classList.add('email-input-container-error')
+    userEmailInput.placeholder = "Вы забыли ввести e-mail!"
+    userEmailInput.classList.add('error')
+  }
 })

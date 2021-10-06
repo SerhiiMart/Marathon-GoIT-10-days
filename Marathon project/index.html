@@ -125,9 +125,14 @@
       <img class="mail-icon" src="./img/icons/mail-icon.svg" alt="Mail Icon">
       <h4>Я свяжусь с Вами на<br> протяжении ближайшего часа</h4>
       <form id="modal-form">
-        <label for="user-email">Email:</label>
-        <input type="email" name="user-email" id="user-email" placeholder="Укажите e-mail"> 
-        <div class="project-btn"><button class="project-btn-class" type="submit">Отправить</button></div> 
+        <div id="email-input-container" class="email-input-container">
+          <label for="user-email">Email:</label>
+          <input type="email" name="user-email" id="user-email" placeholder="Укажите e-mail"> 
+          <p class="email-error-text">Проверьте email</p>
+        </div>
+
+        <div class="project-btn"><button class="project-btn-class" type="submit">Отправить</button>
+        </div> 
       </form>
     </div>
   </div>
