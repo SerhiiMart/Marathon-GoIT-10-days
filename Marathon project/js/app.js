@@ -67,4 +67,21 @@ function calculate() {
 
 
 const formE = document.querySelector('#project-price-form')
+const emailModal = document.querySelector('#modal-email')
+const successModal = document.querySelector('#modal-success')
+
 formE.addEventListener('change', calculate)
+
+formE.addEventListener('submit', (event) => {
+  event.preventDefault()
+  emailModal.classList.add('modal-active')  
+})
+
+const closeBtns = document.querySelectorAll('.modal-close-button')
+
+closeBtns.forEach((closeBtn) => {
+  closeBtn.addEventListener('click', ()=> {
+    emailModal.classList.remove('modal-active') 
+    successModal.classList.remove('modal-active') 
+  })
+})
