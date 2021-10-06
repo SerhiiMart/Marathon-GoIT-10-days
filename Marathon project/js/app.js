@@ -94,9 +94,8 @@ modalForm.addEventListener('submit', (event) => {
     emailModal.classList.remove('modal-active') 
     successModal.classList.add('modal-active') 
     userEmailInput.classList.remove('error')
-  } else {
+  } 
     inputContainer.classList.add('email-input-container-error')
-    userEmailInput.placeholder = "Вы забыли ввести e-mail!"
     userEmailInput.classList.add('error')
-  }
+  
 })
