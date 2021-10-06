@@ -91,9 +91,18 @@ modalForm.addEventListener('submit', (event) => {
   const userEmailInput = document.querySelector('#user-email')
   const inputContainer = document.querySelector('#email-input-container')
   if (userEmailInput.value) {
+    let formData = new FormData(formE)
+    formData.append('Email', userEmailInput.value)
+    fetch('/', {
+      method: 'POST',
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: new URLSearchParams(formData).toString()
+    }).then(() => {
     emailModal.classList.remove('modal-active') 
     successModal.classList.add('modal-active') 
     userEmailInput.classList.remove('error')
+    }).catch((error) => alert(error))
+    return
   } 
     inputContainer.classList.add('email-input-container-error')
     userEmailInput.classList.add('error')

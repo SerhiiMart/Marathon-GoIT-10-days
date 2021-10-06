@@ -77,11 +77,11 @@
 
   <!-- Form Section -->
   <section class="project-price-section">     
-    <form action="#" class="project-price-form" id="project-price-form">
+    <form name="Project Cost" class="project-price-form" id="project-price-form" data-netlify="true">
       <h4>Расчитай стоимость проекта</h4>
       <div class="project-type-container">
         <label for="project-type" class="form-field-title">Тип сайта</label>
-        <select name="project-type" id="project-type" class="project-type-select">
+        <select name="Project Type" id="project-type" class="project-type-select">
           <option selected value="landing-page">Landing Page</option>
           <option value="online-store">Online Store</option>
           <option value="web-application">Web Application</option>
@@ -91,19 +91,19 @@
       <div class="activity-type-container">
         <p class="form-field-title">Тип работ</p>
           <div class="activity-type-item">
-            <input type="checkbox" name="project-management" id="project-management" class="activity-type-checkbox">
+            <input type="checkbox" name="Project Management" id="project-management" class="activity-type-checkbox">
             <label for="project-management" class="activity-type-label">Project Management</label>
           </div>
           <div class="activity-type-item">
-            <input type="checkbox" name="design" id="design" class="activity-type-checkbox">
+            <input type="checkbox" name="Design" id="design" class="activity-type-checkbox">
             <label for="design" class="activity-type-label">Design</label>
           </div>
           <div class="activity-type-item">
-            <input type="checkbox" name="development" id="development" class="activity-type-checkbox">
+            <input type="checkbox" name="Development" id="development" class="activity-type-checkbox">
             <label for="development" class="activity-type-label">Development</label>
           </div>
           <div class="activity-type-item">
-            <input type="checkbox" name="qa" id="qa" class="activity-type-checkbox">
+            <input type="checkbox" name="QA" id="qa" class="activity-type-checkbox">
             <label for="qa" class="activity-type-label">QA</label>
           </div>   
       </div>
@@ -112,6 +112,8 @@
         <div class="project-price-sum"><span>$</span><span id="total-price"> 0</span></div>
         <div class="project-btn"><button class="project-btn-class">Отправить запрос</button></div>   
       </div>
+
+      <input type="hidden" name="Email">
     </form>
   </section>
 </main>
