@@ -41,7 +41,7 @@ function getFormValues() {
     qa: qaEl.checked,
   }
 }
-
+calculate()
 function calculate() {
   const values = getFormValues()
   let totalPrice = 0
@@ -105,5 +105,6 @@ modalForm.addEventListener('submit', (event) => {
   } 
     inputContainer.classList.add('email-input-container-error')
     userEmailInput.classList.add('error')
+    userEmailInput.placeholder = "email"
   
 })

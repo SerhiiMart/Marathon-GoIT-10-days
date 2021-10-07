@@ -82,6 +82,15 @@
   height: 18px;
 }
 
+.social-link {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.icons:hover {
+  fill: #040BA7;
+}
+
 .linkedin-icon {
   margin-right: 15px;
 }
@@ -141,8 +150,12 @@
   font-weight: bold;
   font-size: 24px;
   color: #ffffff;
-  background: #2F80ED;
+  background-color: #2F80ED;
   padding: 5px 15px;
+}
+
+.my-location-remote:hover {
+  background-color: #040BA7;
 }
 
 .local-rem-last{
@@ -266,6 +279,9 @@
   outline: none;
   border: none;
  }
+ .project-btn-class:hover {
+  background-color: #040BA7;
+}
  
  .project-btn {
   width: 100%;
