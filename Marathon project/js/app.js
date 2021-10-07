@@ -78,6 +78,11 @@ const closeBtns = document.querySelectorAll('.modal-close-button')
 
 closeBtns.forEach((closeBtn) => {
   closeBtn.addEventListener('click', ()=> {
+    const userEmailInput = document.querySelector('#user-email')
+    const inputContainer = document.querySelector('#email-input-container')
+    inputContainer.classList.remove('email-input-container-error')
+    userEmailInput.classList.remove('error')
+    userEmailInput.placeholder = "Укажите e-mail"
     emailModal.classList.remove('modal-active') 
     successModal.classList.remove('modal-active') 
   })
@@ -106,5 +111,4 @@ modalForm.addEventListener('submit', (event) => {
     inputContainer.classList.add('email-input-container-error')
     userEmailInput.classList.add('error')
     userEmailInput.placeholder = "email"
-  
 })
