@@ -25,7 +25,6 @@ const prices = {
   }
 }
 
-
 function getFormValues() {
   const selectType = document.querySelector('#project-type')
 
