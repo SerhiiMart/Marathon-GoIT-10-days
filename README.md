@@ -1,2 +1,9 @@
 ## Marathon from GoIT. 10 days of projects.
-Finished.
+
+* Project Management.
+* Design
+* Front-end development
+* Back-end development
+* QA
+
+Status: successfully finished.
